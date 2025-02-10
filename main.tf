@@ -23,7 +23,7 @@ resource "aws_instance" "myec2" {
 
 variable "my_region" {
   type = string
-  default = ap-south-1
+  default = "ap-south-1"
   }
 variable "access_key" { }
 variable "secret_key" { }
