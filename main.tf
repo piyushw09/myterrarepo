@@ -15,7 +15,7 @@ resource "aws_instance" "myec2" {
  
   ami           = var.my_ami
   instance_type = "t2.micro"
-
+  subnet_id = "subnet-07791450efd213ae4"
   tags = {
     Name = "myinstance "
   }
